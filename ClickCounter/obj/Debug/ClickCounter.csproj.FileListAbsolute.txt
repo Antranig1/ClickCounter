@@ -1,0 +1,14 @@
+C:\Users\Anto\source\repos\ClickCounter\ClickCounter\bin\Debug\ClickCounter.exe.config
+C:\Users\Anto\source\repos\ClickCounter\ClickCounter\bin\Debug\ClickCounter.exe
+C:\Users\Anto\source\repos\ClickCounter\ClickCounter\bin\Debug\ClickCounter.pdb
+C:\Users\Anto\source\repos\ClickCounter\ClickCounter\obj\Debug\ClickCounter.csprojAssemblyReference.cache
+C:\Users\Anto\source\repos\ClickCounter\ClickCounter\obj\Debug\ClickCounter.Form1.resources
+C:\Users\Anto\source\repos\ClickCounter\ClickCounter\obj\Debug\ClickCounter.Properties.Resources.resources
+C:\Users\Anto\source\repos\ClickCounter\ClickCounter\obj\Debug\ClickCounter.csproj.GenerateResource.cache
+C:\Users\Anto\source\repos\ClickCounter\ClickCounter\obj\Debug\ClickCounter.csproj.CoreCompileInputs.cache
+C:\Users\Anto\source\repos\ClickCounter\ClickCounter\obj\Debug\ClickCounter.exe
+C:\Users\Anto\source\repos\ClickCounter\ClickCounter\obj\Debug\ClickCounter.pdb
+C:\Users\Anto\source\repos\ClickCounter\ClickCounter\bin\Debug\ClickCounter.exe.manifest
+C:\Users\Anto\source\repos\ClickCounter\ClickCounter\bin\Debug\ClickCounter.application
+C:\Users\Anto\source\repos\ClickCounter\ClickCounter\obj\Debug\ClickCounter.exe.manifest
+C:\Users\Anto\source\repos\ClickCounter\ClickCounter\obj\Debug\ClickCounter.application
