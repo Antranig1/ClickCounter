@@ -1,0 +1,15 @@
+D:\Cours\VisualBasic\ClickCounter\ClickCounter\bin\Release\ClickCounter.exe.config
+D:\Cours\VisualBasic\ClickCounter\ClickCounter\bin\Release\ClickCounter.exe.manifest
+D:\Cours\VisualBasic\ClickCounter\ClickCounter\bin\Release\ClickCounter.application
+D:\Cours\VisualBasic\ClickCounter\ClickCounter\bin\Release\ClickCounter.exe
+D:\Cours\VisualBasic\ClickCounter\ClickCounter\bin\Release\ClickCounter.pdb
+D:\Cours\VisualBasic\ClickCounter\ClickCounter\obj\Release\ClickCounter.csprojAssemblyReference.cache
+D:\Cours\VisualBasic\ClickCounter\ClickCounter\obj\Release\ClickCounter.Form1.resources
+D:\Cours\VisualBasic\ClickCounter\ClickCounter\obj\Release\ClickCounter.Form2.resources
+D:\Cours\VisualBasic\ClickCounter\ClickCounter\obj\Release\ClickCounter.Properties.Resources.resources
+D:\Cours\VisualBasic\ClickCounter\ClickCounter\obj\Release\ClickCounter.csproj.GenerateResource.cache
+D:\Cours\VisualBasic\ClickCounter\ClickCounter\obj\Release\ClickCounter.csproj.CoreCompileInputs.cache
+D:\Cours\VisualBasic\ClickCounter\ClickCounter\obj\Release\ClickCounter.exe.manifest
+D:\Cours\VisualBasic\ClickCounter\ClickCounter\obj\Release\ClickCounter.application
+D:\Cours\VisualBasic\ClickCounter\ClickCounter\obj\Release\ClickCounter.exe
+D:\Cours\VisualBasic\ClickCounter\ClickCounter\obj\Release\ClickCounter.pdb

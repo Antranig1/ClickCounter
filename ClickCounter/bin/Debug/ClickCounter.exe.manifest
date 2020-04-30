@@ -43,24 +43,42 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ClickCounter.exe" size="425944">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ClickCounter.exe" size="658904">
       <assemblyIdentity name="ClickCounter" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>h+zbmgkDaMKzjEfmNjZCLAKe3sDSZyDJxKLl/DOTrXs=</dsig:DigestValue>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>X5amqq/49RKwkpNU9A/IutjMP+8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="ClickCounter.exe.config" size="189">
+  <file name="ClickCounter.exe.config" size="199">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>GppnRcd+1cjh7BZx3bL16S8kPdA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Database1.mdf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>UStMU3a9+j6LaR8nDcBBS6mnqWY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Database1_log.ldf" size="786432" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>QnQiN0ixMiZAIwB4+YuKlAkMGps=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Mouse.ico" size="190161">
@@ -68,8 +86,8 @@
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Mw3DYeV61wOl1sLmmUqAfdSCUR9dv9PAsTucynDy+k8=</dsig:DigestValue>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>6l3YzjAg2a3WchAZpmaX1sR07GI=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

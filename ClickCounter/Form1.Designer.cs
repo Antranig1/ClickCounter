@@ -40,6 +40,9 @@
             this.lblFinish = new System.Windows.Forms.Label();
             this.lblBestScore = new System.Windows.Forms.Label();
             this.lblNumBestScore = new System.Windows.Forms.Label();
+            this.txtUserNamef1 = new System.Windows.Forms.Label();
+            this.lblUserName = new System.Windows.Forms.Label();
+            this.btnGoBack = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -60,7 +63,7 @@
             this.lblCounter.AutoSize = true;
             this.lblCounter.BackColor = System.Drawing.Color.Transparent;
             this.lblCounter.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblCounter.Location = new System.Drawing.Point(42, 38);
+            this.lblCounter.Location = new System.Drawing.Point(31, 66);
             this.lblCounter.Name = "lblCounter";
             this.lblCounter.Size = new System.Drawing.Size(67, 13);
             this.lblCounter.TabIndex = 1;
@@ -71,7 +74,7 @@
             this.Clicks.AutoSize = true;
             this.Clicks.BackColor = System.Drawing.Color.Transparent;
             this.Clicks.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.Clicks.Location = new System.Drawing.Point(115, 38);
+            this.Clicks.Location = new System.Drawing.Point(104, 66);
             this.Clicks.Name = "Clicks";
             this.Clicks.Size = new System.Drawing.Size(13, 13);
             this.Clicks.TabIndex = 2;
@@ -82,7 +85,7 @@
             this.btnReset.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.btnReset.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset.ForeColor = System.Drawing.Color.Black;
-            this.btnReset.Location = new System.Drawing.Point(309, 313);
+            this.btnReset.Location = new System.Drawing.Point(309, 274);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(177, 68);
             this.btnReset.TabIndex = 3;
@@ -100,7 +103,7 @@
             this.lblTime.AutoSize = true;
             this.lblTime.BackColor = System.Drawing.Color.Transparent;
             this.lblTime.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblTime.Location = new System.Drawing.Point(42, 69);
+            this.lblTime.Location = new System.Drawing.Point(31, 97);
             this.lblTime.Name = "lblTime";
             this.lblTime.Size = new System.Drawing.Size(30, 13);
             this.lblTime.TabIndex = 4;
@@ -111,7 +114,7 @@
             this.lblRealTime.AutoSize = true;
             this.lblRealTime.BackColor = System.Drawing.Color.Transparent;
             this.lblRealTime.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblRealTime.Location = new System.Drawing.Point(78, 69);
+            this.lblRealTime.Location = new System.Drawing.Point(67, 97);
             this.lblRealTime.Name = "lblRealTime";
             this.lblRealTime.Size = new System.Drawing.Size(13, 13);
             this.lblRealTime.TabIndex = 5;
@@ -138,7 +141,7 @@
             this.lblBestScore.AutoSize = true;
             this.lblBestScore.BackColor = System.Drawing.Color.Transparent;
             this.lblBestScore.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblBestScore.Location = new System.Drawing.Point(42, 106);
+            this.lblBestScore.Location = new System.Drawing.Point(31, 134);
             this.lblBestScore.Name = "lblBestScore";
             this.lblBestScore.Size = new System.Drawing.Size(56, 13);
             this.lblBestScore.TabIndex = 7;
@@ -149,11 +152,47 @@
             this.lblNumBestScore.AutoSize = true;
             this.lblNumBestScore.BackColor = System.Drawing.Color.Transparent;
             this.lblNumBestScore.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblNumBestScore.Location = new System.Drawing.Point(104, 106);
+            this.lblNumBestScore.Location = new System.Drawing.Point(93, 134);
             this.lblNumBestScore.Name = "lblNumBestScore";
             this.lblNumBestScore.Size = new System.Drawing.Size(13, 13);
             this.lblNumBestScore.TabIndex = 8;
             this.lblNumBestScore.Text = "0";
+            // 
+            // txtUserNamef1
+            // 
+            this.txtUserNamef1.AutoSize = true;
+            this.txtUserNamef1.BackColor = System.Drawing.Color.Transparent;
+            this.txtUserNamef1.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.txtUserNamef1.Location = new System.Drawing.Point(104, 33);
+            this.txtUserNamef1.Name = "txtUserNamef1";
+            this.txtUserNamef1.Size = new System.Drawing.Size(0, 13);
+            this.txtUserNamef1.TabIndex = 10;
+            this.txtUserNamef1.Click += new System.EventHandler(this.label1_Click_1);
+            // 
+            // lblUserName
+            // 
+            this.lblUserName.AutoSize = true;
+            this.lblUserName.BackColor = System.Drawing.Color.Transparent;
+            this.lblUserName.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.lblUserName.Location = new System.Drawing.Point(31, 33);
+            this.lblUserName.Name = "lblUserName";
+            this.lblUserName.Size = new System.Drawing.Size(57, 13);
+            this.lblUserName.TabIndex = 9;
+            this.lblUserName.Text = "UserName";
+            this.lblUserName.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // btnGoBack
+            // 
+            this.btnGoBack.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnGoBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGoBack.ForeColor = System.Drawing.Color.Black;
+            this.btnGoBack.Location = new System.Drawing.Point(309, 361);
+            this.btnGoBack.Name = "btnGoBack";
+            this.btnGoBack.Size = new System.Drawing.Size(177, 68);
+            this.btnGoBack.TabIndex = 11;
+            this.btnGoBack.Text = "Go Back!";
+            this.btnGoBack.UseVisualStyleBackColor = false;
+            this.btnGoBack.Click += new System.EventHandler(this.btnGoBack_Click);
             // 
             // Form1
             // 
@@ -163,6 +202,9 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnGoBack);
+            this.Controls.Add(this.txtUserNamef1);
+            this.Controls.Add(this.lblUserName);
             this.Controls.Add(this.lblNumBestScore);
             this.Controls.Add(this.lblBestScore);
             this.Controls.Add(this.lblFinish);
@@ -177,6 +219,7 @@
             this.Name = "Form1";
             this.Text = "Click Counter";
             this.TransparencyKey = System.Drawing.Color.Transparent;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -195,6 +238,9 @@
         private System.Windows.Forms.Label lblFinish;
         private System.Windows.Forms.Label lblBestScore;
         private System.Windows.Forms.Label lblNumBestScore;
+        private System.Windows.Forms.Label txtUserNamef1;
+        private System.Windows.Forms.Label lblUserName;
+        private System.Windows.Forms.Button btnGoBack;
     }
 }
 
