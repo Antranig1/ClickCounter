@@ -49,7 +49,7 @@ namespace ClickCounter
                 cmd.CommandType = CommandType.Text;
                 cmd.CommandText = "insert into Players values('" + txtName.Text + "','" + 0 + "')";
                 cmd.ExecuteNonQuery();
-
+                con.Close();
                 MessageBox.Show("User name inserted successfully");
             }
             catch (Exception ex)
